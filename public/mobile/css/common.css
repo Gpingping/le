@@ -6,6 +6,10 @@
 html,body {
   height: 100%;
 }
+img {
+  width: 100%;
+  display: block;
+}
 .container {
   width: 100%;
   height: 100%;
@@ -14,14 +18,64 @@ html,body {
   margin: 0 auto;
   background-color: pink;
   position: relative;
+  padding-top: 45px;
+  padding-bottom: 55px;  
 }
 .lt_header {
   top:0;
   left: 0;
   width: 100%;
   height: 45px;
-  background-color: skyblue;
-  position: fixed;
+  background-color: #069;
+  position: absolute; 
+  padding:0 15px; 
+  z-index: 999;
+ 
+}
 
-  
+.lt_header a {
+  color: #fff;
+  line-height: 45px;
+  position: absolute;
+  top: 0;
+}
+.lt_header .icon-left {
+  left: 15px;
+}
+.lt_header .icon-right {
+  right: 15px;
+}
+.lt_header h4 {
+  color: #fff;
+  line-height: 45px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.lt_footer {
+  width: 100%;
+  height: 55px;
+  position: absolute;
+  bottom: 0;
+  background-color: #069;
+}
+.lt_footer ul li{
+  width: 25%;
+  text-align: center;
+  float: left;
+  margin-top: 8px;
+}
+
+.lt_footer ul li a {
+  color: #fff;  
+}
+.lt_footer ul li p {
+  color: #fff;
+}
+
+.lt_footer ul li.now a {
+  color: darkorange;  
+}
+.lt_footer ul li.now p {
+  color: darkorange;  
 }
