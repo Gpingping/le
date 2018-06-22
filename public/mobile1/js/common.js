@@ -31,4 +31,4 @@ var tools = {
   getSearch: function(key){
     return this.getSearchObj()[key];
   }
-}
+}  
