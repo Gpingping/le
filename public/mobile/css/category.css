@@ -39,14 +39,15 @@
   display: block;
 }
 .lt_category_r {
-  width: 550px;
+
   height: 100%;
   position: relative;
-
-  float: right;
+  overflow: hidden;
 }
 .lt_category_r ul {
-  width: 550px;
+  /* width: 550px; */
+  height: 100%;
+
 }
 .lt_category_r ul li {
   float: left;
